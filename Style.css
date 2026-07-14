@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+}
+.container{
+    width:350px;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+
+}
+h1,h2,h3{
+   text-align:center;
+
+}
+.summary{
+    display:flex;
+    justify-content:space-between;
+    margin:20px 0;
+
+}
+.income{
+   color:green;
+
+}
+.expense{
+    color:red;
+
+}
+input,select,button{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+
+}
+button{
+    background:blue;
+    color:white;
+    border:none;
+    cursor:pointer;
+
+}
+button:hover{
+   background:darkblue;
+
+}
+ul{
+   list-style:none;
+    padding:0;
+
+}
+li{
+
+    background:#eee;
+    padding:10px;
+    margin:10px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+li button{
+    width:70px;
+    padding:5px;
+    margin-left:5px;
+
+}
+@media(max-width:600px){
+
+    .container{
+
+        width:90%;
+
+    }
+
+}
